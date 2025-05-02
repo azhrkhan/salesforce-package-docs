@@ -1,8 +1,10 @@
-===========Post-Installation System Requirements=======
+Post-Installation System Requirements
 
-1. Add a Public Group called Lead Alert and add members to it, who are supposed to receive new lead alerts.
+1. Create a Public Group named Lead Alert and include all users who should receive new lead notifications.
 
-2. Add the LeadAlertLwc component to your Salesforce App's Utility Bar via Setup > App Manager > Edit (App) > Utility Bar.
-   (Note: Utility Bar in managed App might not be editable and alerts would not work, hence choose to add to and use a custom App.)
+2. Add the LeadAlertLwc component to the Utility Bar of your Salesforce App by navigating to:
+   Setup > App Manager > Edit (desired App) > Utility Bar.
+   Note: Utility Bars in managed packages are typically non-editable, and alerts may not function as expected. It is recommended to use a custom App for this 
+   configuration.
 
-3. Add the Permission Set named Lead Alert Permission Set to the users, who are in the Lead Alert - Public Group.
+3. Assign the Lead Alert Permission Set to all users who are members of the Lead Alert Public Group.
